@@ -1,0 +1,140 @@
+
+
+ /* @import url('https://fonts.googleapis.com/css?family=Quicksand'); */
+ @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900');
+
+html,body {
+  height: 100%;
+} 
+
+
+.wrapper {
+  height: 100%;
+  font-family: "gill sans", sans-serif;
+  line-height: 1.5;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+}
+
+
+
+
+/* Slide out menu */
+
+.sidepanel  {
+  width: 0;
+  position: absolute;
+  z-index: 1;
+  height: 558px;
+  top: 0;
+  right: 0;
+  background-color: #fb2b11;
+  overflow-x: hidden;
+  transition: 0.2s;
+  padding-top: 30px;
+}
+
+.sidepanel a {
+  padding: 5px 1px 5px 10px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #080000;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: #D5D1D0;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  font-size: 36px;
+}
+
+.openbtn {
+  font-size: 40px;
+  position: absolute;
+  position: fixed;
+  cursor: pointer;
+  background-color:transparent;
+  color: #fb2b11;
+  right: 0;
+  padding: 10px 10px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #fb2b11;
+}
+
+/* Slide out menu end */
+
+
+
+
+.wbg {
+  font-size: 150px;
+}
+
+.fixed-bg {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%; 
+  width: 100%;
+  font-size: 100px;
+  color: #fb2b11; 
+  text-align: center;
+  display: table;
+}
+
+.fixed-bg h1 {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 250px;
+}
+
+h4 {
+  padding: 5px;
+  font-weight: bold;
+}
+
+.scroll-bg {
+  background-color:white;
+  padding-top: 10px;
+  padding-left: 20px;
+  color: #ff0000;
+}
+
+p {
+  font-size: large;
+}
+
+.content {
+  font-family: "gill sans", sans-serif;
+  color: #000;
+}
+
+.content {
+  padding: 10px 50px;
+}
+
+/* BW spoke ceiling background */
+.bg-1 {
+  background-image: url("images/Circular_spoke_ceiling_BW.png");
+  opacity: 1.0;
+}
+
+/* Colour spoke ceiling background */
+.bg-2 {
+  background-image: url("images/Circular_spoke_ceiling copy.png");
+}
+
+/* Images section */
+.bg-3 {
+  background-image: url("images/Adelaide _Oval_Boutique_Hotel_front.jpg");
+}
