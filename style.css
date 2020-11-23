@@ -11,15 +11,17 @@ html,body {
 .wrapper {
   height: 100%;
   font-family: "gill sans", sans-serif;
-  line-height: 1.5;
+  line-height: 1.25;
   word-spacing: 4px;
   letter-spacing: 1px;
 }
 
+.picture {
+  display:inline-block;
+}
 
 
-
-/* Slide out menu */
+/* Slide out menu start */
 
 .sidepanel  {
   width: 0;
@@ -35,7 +37,7 @@ html,body {
 }
 
 .sidepanel a {
-  padding: 5px 1px 5px 10px;
+  padding: 5px 1px 5px 50px;
   text-decoration: none;
   font-size: 30px;
   color: #080000;
@@ -62,7 +64,8 @@ html,body {
   background-color:transparent;
   color: #fb2b11;
   right: 0;
-  padding: 10px 10px;
+  padding-right: 10px;
+  padding-top: 0px;
   border: none;
 }
 
@@ -76,7 +79,7 @@ html,body {
 
 
 .wbg {
-  font-size: 150px;
+  font-size: 150px; 
 }
 
 .fixed-bg {
@@ -95,7 +98,8 @@ html,body {
 .fixed-bg h1 {
   display: table-cell;
   vertical-align: middle;
-  font-size: 250px;
+  font-weight: 500;
+  font-size: 270px;
 }
 
 h4 {
@@ -105,7 +109,9 @@ h4 {
 
 .scroll-bg {
   background-color:white;
-  padding-top: 10px;
+  font-size: 50px;
+  padding-top: 20px;
+  padding-bottom: 10px;
   padding-left: 20px;
   color: #ff0000;
 }
@@ -117,11 +123,25 @@ p {
 .content {
   font-family: "gill sans", sans-serif;
   color: #000;
-}
-
-.content {
   padding: 10px 50px;
 }
+
+.viewMore {
+  background-color: #D5D1D0;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 20px;
+}
+ 
+ 
+
 
 /* BW spoke ceiling background */
 .bg-1 {
